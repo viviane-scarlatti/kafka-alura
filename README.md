@@ -48,7 +48,7 @@ tar zxf kafka_2.13-2.7.0.tgz
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic NOME_DO_TOPICO
 ```
 - Consumidor que recebe todas as mensagens desde o começo:
-
+```
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic TestTopic --from-beginning
 ```
 - Descrever tópicos

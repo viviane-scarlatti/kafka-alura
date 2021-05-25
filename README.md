@@ -32,7 +32,7 @@ tar zxf kafka_2.13-2.7.0.tgz
 ## :star2: Comandos úteis
 - Para criar tópicos:
 ```
-.\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic {NOME_DO_TOPICO}
+.\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic NOME_DO_TOPICO
 ```
 - Listar tópicos:
 ```
@@ -46,7 +46,7 @@ tar zxf kafka_2.13-2.7.0.tgz
 - Criar o consumidor:
 ```
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic NOME_DO_TOPICO
-
+```
 - Consumidor que recebe todas as mensagens desde o começo:
 
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic TestTopic --from-beginning
@@ -57,7 +57,7 @@ tar zxf kafka_2.13-2.7.0.tgz
 ```
 - Alterar numero de partições:
 ```
-.\bin\windows\kafka-topics.bat --alter --zookeeper localhost:2181 --topic ECOMMERCE_NEW_ORDER --partitions numeroDePaticoes
+.\bin\windows\kafka-topics.bat --alter --zookeeper localhost:2181 --topic NOME_DO_TOPICO --partitions numeroDePaticoes
 ```
 - Analisar grupos de consumo:
 ```

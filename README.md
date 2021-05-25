@@ -12,11 +12,11 @@ No prompt de comando, após fazer o download:
 
 1 - descompactar o tgz: 
 ```
-<tar zxf {nome do arquivo}>
+tar zxf {nome do arquivo}
 ```
 
 ```
-<tar zxf kafka_2.13-2.7.0.tgz>
+tar zxf kafka_2.13-2.7.0.tgz
 ```
 2 - mova o Kafka para C:/Kafka
 
